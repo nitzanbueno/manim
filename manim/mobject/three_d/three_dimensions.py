@@ -763,7 +763,7 @@ class Cylinder(Surface):
         direction: np.ndarray = Z_AXIS,
         v_range: Sequence[float] = [0, TAU],
         show_ends: bool = True,
-        resolution: Sequence[int] = (24, 24),
+        resolution: Sequence[int] = (2, 24),
         **kwargs,
     ) -> None:
         self._height = height
